@@ -1,0 +1,67 @@
+{
+  "benchmark": "HF_Leaderboard_Lab_Results",
+  "project": "K_AUTOROUND",
+  "tier": "TIER_4_INFERENCE_AGENTS",
+  "slug": "intel/auto-round",
+  "commit": "5606837a3842",
+  "run_timestamp": "2026-09-30T15:07:07.146295+00:00",
+  "isolation": {
+    "environment": "local",
+    "model": "distilbert-base-uncased",
+    "hf_model_load_time_sec": 4.42,
+    "platform": "win32",
+    "python": "3.12.10"
+  },
+  "results": {
+    "framework": "HuggingFace Open LLM Leaderboard (proxy via distilbert-base-uncased)",
+    "source": "https://huggingface.co/docs/leaderboards/en/open_llm_leaderboard/archive",
+    "model_used": "distilbert-base-uncased",
+    "note": "Full MMLU/HellaSwag/TruthfulQA/ARC/Winogrande/GSM8K require GPU. Proxy: inference latency.",
+    "samples_run": 5,
+    "latency_ms": {
+      "avg": 49.95,
+      "min": 43.04,
+      "max": 57.03,
+      "all": [
+        48.52,
+        48.11,
+        53.04,
+        57.03,
+        43.04
+      ]
+    },
+    "status": "PASS",
+    "tokenization": {
+      "model": "distilbert-base-uncased",
+      "input_text": "K_AUTOROUND (intel/auto-round) \u2014 1000 files, 333904 source lines, licence Apache-2.0, primary language ['Python']",
+      "token_count": 38,
+      "tokens_preview": [
+        "[CLS]",
+        "k",
+        "_",
+        "auto",
+        "##rou",
+        "##nd",
+        "(",
+        "intel",
+        "/",
+        "auto",
+        "-",
+        "round",
+        ")",
+        "\u2014",
+        "1000",
+        "files",
+        ",",
+        "333",
+        "##90",
+        "##4"
+      ],
+      "tokenization_latency_ms": 1.0,
+      "classification_label": "LABEL_0",
+      "classification_score": 0.5882,
+      "classification_latency_ms": 85.74,
+      "status": "PASS"
+    }
+  }
+}

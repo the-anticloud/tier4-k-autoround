@@ -1,0 +1,16 @@
+{
+  "project": "K_AUTOROUND",
+  "tier": "TIER_4_INFERENCE_AGENTS",
+  "timestamp": "2026-10-01",
+  "benchmark_type": "local_static",
+  "bandit_high": 15,
+  "bandit_medium": 693,
+  "bandit_status": "fail",
+  "radon_cc_grade": "4.003743215422047",
+  "radon_cc_score": null,
+  "radon_mi_avg": null,
+  "python_files": 740,
+  "total_files": 1337,
+  "python_loc": 175598,
+  "elapsed_s": 125.93
+}

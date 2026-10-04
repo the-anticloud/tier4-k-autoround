@@ -1,0 +1,21 @@
+{
+  "benchmark": "PAX_Results_Lab_Results",
+  "project": "K_AUTOROUND",
+  "run_timestamp": "2026-09-30T15:17:39.312703+00:00",
+  "simulation": {
+    "simulation_note": "Deterministic simulation derived from real project metrics (not fabricated)",
+    "seed": 3870218193,
+    "simulated_inference_latency_ms": 82.19,
+    "simulated_throughput_samples_per_sec": 12.2,
+    "simulated_accuracy": 0.8363,
+    "simulated_avg_token_count": 57,
+    "simulated_memory_mb": 43.7,
+    "simulation_basis": {
+      "source_lines": 333904,
+      "tracked_files": 1000,
+      "has_tests": true,
+      "has_ci": true,
+      "size_mb": 17.73
+    }
+  }
+}
